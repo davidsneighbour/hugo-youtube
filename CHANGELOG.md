@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2021-12-25)
+
+
+### Chore
+
+* initial commit, first version ([9a7c8ce](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/9a7c8ce2a062f2961d6d49e1efc5048d2facb71e))
+
 ### [1.0.23](https://github.com/dnb-org/shortcodes/compare/youtube/v1.0.22...youtube/v1.0.23) (2021-12-25)
 
 
