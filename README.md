@@ -5,7 +5,7 @@
 
 <!--- CARD END --->
 
-# DNB Hugo - Youtube Shortcode
+# DNB GoHugo Component / Youtube
 
 A responsive and very fast shortcode to add youtube videos to your Hugo website.
 
@@ -97,6 +97,15 @@ If you are not using any Hugo pipelines (shame on you) then add the Javascript a
 ```html
 <link href="/libs/liteyoutube/lite-yt-embed.css" rel="stylesheet">
 <script src="/libs/liteyoutube/lite-yt-embed.js"></script>
+```
+
+## CSP rules for this plugin
+
+The following rules are required in addition to your normal setup to allow videos to load:
+
+```ini
+frame-src = ["https://www.youtube-nocookie.com"]
+img-src = ["https://i.ytimg.com"]
 ```
 
 <!--- COMPONENTS BEGIN --->
