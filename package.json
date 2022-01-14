@@ -18,7 +18,7 @@
     "release-next": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "dependencies": {
-    "@dnb-org/tools": "^3.4.5",
+    "@dnb-org/tools": "^3.4.10",
     "mem": "^9.0.1"
   }
 }
