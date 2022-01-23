@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/dnb-hugo-youtube",
   "description": "Youtube shortcode and partial for GoHugo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-org/shortcodes/issues"

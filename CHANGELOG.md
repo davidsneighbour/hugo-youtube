@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.0...v1.0.1) (2022-01-23)
+
+
+### Bug Fixes
+
+* load latest commit of lite-youtube-embed ([37e1e02](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/37e1e02af78f185a3c25b2598423ab692f80bffa))
+* remove release note ([998282b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/998282b7f087f693e72f5e3a969ae0acda7c5926))
+
+
+### Documentation
+
+* update README.md ([7c57c16](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/7c57c168e32c641b93c5f6a14d8ff918cb9c9596))
+
+
+### Chore
+
+* **config:** update header images ([30d2d2c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/30d2d2cd6cb7c1a9bbda3f499147e484312542cc))
+* **deps:** add mem dependency for dependabot ([ef975bb](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/ef975bb21cebb8086d3a5e70046cca47aa4e732e))
+
 ## 1.0.0 (2021-12-25)
 
 
