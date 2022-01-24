@@ -11,8 +11,8 @@ Following are some samples for the usage of the Youtube Shortcode.
 ## Default call {.mt-5}
 
 {{< highlight go-html-template >}}
-{{</* youtube 
-        id="_BM3zCMRPcw" 
+{{</* youtube
+        id="_BM3zCMRPcw"
 */>}}
 {{< / highlight >}}
 
@@ -23,8 +23,8 @@ Following are some samples for the usage of the Youtube Shortcode.
 Please don't do that ;] But you can if you want. Use the `youtube` shortcode just in combination with the video-ID. You don't even need quotation marks around the ID.
 
 {{< highlight go-html-template >}}
-{{</* youtube 
-        _BM3zCMRPcw 
+{{</* youtube
+        _BM3zCMRPcw
 */>}}
 {{< / highlight >}}
 
@@ -33,9 +33,9 @@ Please don't do that ;] But you can if you want. Use the `youtube` shortcode jus
 ## Add an aria-label to the play button {.mt-5}
 
 {{< highlight go-html-template >}}
-{{</* youtube 
-        id="_BM3zCMRPcw" 
-        title="Lower your eyelids to die with the sun - M83" 
+{{</* youtube
+        id="_BM3zCMRPcw"
+        title="Lower your eyelids to die with the sun - M83"
 */>}}
 {{< / highlight >}}
 
