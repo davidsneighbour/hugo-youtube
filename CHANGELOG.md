@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.1...v1.0.2) (2022-01-24)
+
+
+### Bug Fixes
+
+* remove pygment configuration ([6144d9c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/6144d9c19372788e41e62d78a528f5b61d9a2136))
+
+
+### Documentation
+
+* add CITATION.cff ([0665d05](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0665d05903910ab55e36de54974acae3cf6b6283))
+* update license ([2d1019b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/2d1019b0c278065e0af2762298f046d6490bcc2e))
+
+
+### Build System
+
+* move sc-youtube to youtube data config and add build.json ([52a504d](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/52a504d27041bb13b9300e2e2e476ed95d0cce92))
+* update build scripts ([ad51535](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/ad51535456bbf2b1af78ec291b6cb5c26c40cb6b))
+
+
+### Chore
+
+* cleanup templates ([58dd588](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/58dd588ad5d297e637964f3240d51945aa111456))
+* **deps:** update dependencies ([cf4af1d](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/cf4af1d3e83d021024fe8d7a1616e8bf679324d3))
+
 ### [1.0.1](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.0...v1.0.1) (2022-01-23)
 
 
