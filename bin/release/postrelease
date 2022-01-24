@@ -12,3 +12,5 @@ fi
 
 git commit --signoff --amend --no-edit
 git push --follow-tags origin main
+git push --tags origin main
+git push --all
