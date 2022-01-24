@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.5) (2022-01-24)
+
+
+### Chore
+
+* **release:** v1.0.4 ([d7e8474](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
+
+
+### Build System
+
+* **fix:** push everything ([fb81cfe](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+
 ### [1.0.4](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.4) (2022-01-24)
 
 
