@@ -7,7 +7,7 @@
   "homepage": "https://github.com/dnb-org/dnb-hugo-youtube",
   "bugs": "https://github.com/dnb-org/dnb-hugo-youtube/issues",
   "devDependencies": {
-    "@dnb-org/standard-version-config": "^3.4.11",
+    "@dnb-org/standard-version-config": "^3.5.5",
     "@dnb-org/tools": "^3.4.12",
     "mem": "^9.0.2"
   },
