@@ -24,12 +24,14 @@ see
     {{- $class  := .class | default "" -}}
     {{- $title  := .title | default "" -}}
     {{- $params := .params | default $paramsCollected -}}
+    {{- $remoteThumbnailUrl := printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id -}}
+    {{- $remoteThumbnail := resources.GetRemote $remoteThumbnailUrl -}}
     <div class="shortcode--youtube {{ with $class -}}{{- . -}}{{- end -}}">
         <lite-youtube
             videoid="{{- $id -}}" {{ with $title -}}
             playlabel="{{- . -}}"{{- end -}}
             params="{{- $params -}}"
-            style="background-image: url('https://i.ytimg.com/vi/{{- $id -}}/hqdefault.jpg');">
+            style="background-image: url('{{- $remoteThumbnail.Permalink -}}');">
             <button type="button" class="lty-playbtn" aria-label="Play video">
                 {{- with $title -}}<span class="lyt-visually-hidden">{{- . -}}</span>{{- end -}}
             </button>
