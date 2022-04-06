@@ -1,4 +1,4 @@
-module github.com/dnb-org/dnb-hugo-youtube
+module github.com/davidsneighbour/hugo-youtube
 
 go 1.17
 
