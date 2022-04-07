@@ -1,11 +1,11 @@
 {
-  "name": "@dnb-org/dnb-hugo-youtube",
+  "name": "@davidsneighbour/hugo-youtube",
   "version": "1.0.8",
   "license": "MIT",
   "description": "Youtube shortcode and partial for GoHugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "homepage": "https://github.com/dnb-org/dnb-hugo-youtube",
-  "bugs": "https://github.com/dnb-org/dnb-hugo-youtube/issues",
+  "homepage": "https://github.com/davidsneighbour/hugo-youtube",
+  "bugs": "https://github.com/davidsneighbour/hugo-youtube/issues",
   "devDependencies": {
     "@dnb-org/standard-version-config": "^3.5.6",
     "@dnb-org/tools": "^3.5.6",
