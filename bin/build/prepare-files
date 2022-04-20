@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC2039
 
 REQUIRED_TOOLS=(
   node
   export
-  trap
 )
 
 for TOOL in "${REQUIRED_TOOLS[@]}"; do
@@ -13,10 +13,8 @@ for TOOL in "${REQUIRED_TOOLS[@]}"; do
   fi
 done
 
-trap "{ echo 'Terminated with Ctrl+C'; }" SIGINT
-
 FILE=.env
-if [ -f "$FILE" ]; then
+if [ -f "${FILE}" ]; then
   echo "exporting .env"
   set -a
   # shellcheck source=/dev/null
@@ -24,19 +22,20 @@ if [ -f "$FILE" ]; then
   set +a
 fi
 
-node ./node_modules/replace-between/bin/replace-between.js \
-  --source "${TEMPLATEPATH}"/readme/components.md \
-  --target README.md \
-  --token COMPONENTS
+README_PARTICLES=(
+  COMPONENTS
+  CARD
+  INSTALLUPDATE
+  THINGSTOKNOW
+)
 
-node ./node_modules/replace-between/bin/replace-between.js \
-  --source "${TEMPLATEPATH}"/readme/installupdate.md \
-  --target README.md \
-  --token INSTALLUPDATE
+# shellcheck disable=SC2154
+for PARTICLE in "${README_PARTICLES[@]}"; do
+  node ./node_modules/replace-between/bin/replace-between.js \
+    --source "${TEMPLATEPATH}"/readme/"${PARTICLE,,}".md \
+    --target README.md \
+    --token "${PARTICLE^^}"
+done
 
-node ./node_modules/replace-between/bin/replace-between.js \
-  --source "${TEMPLATEPATH}"/readme/thingstoknow.md \
-  --target README.md \
-  --token THINGSTOKNOW
-
-sed -i 's+##MODULENAME##+github.com/davidsneighbour/hugo-youtube+g' README.md
+# shellcheck disable=SC2154
+sed -i 's+##MODULENAME##+'"${MODULENAME}"'+g' README.md
