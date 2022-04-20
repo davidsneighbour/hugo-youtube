@@ -2,178 +2,178 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.1.0](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.1.0) (2022-04-07)
+## [1.1.0](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.2...v1.1.0) (2022-04-07)
 
 
 ### Features
 
-* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
+* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/davidsneighbour/hugo-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
 
 
 ### Build System
 
-* **fix:** push everything ([fb81cfe](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+* **fix:** push everything ([fb81cfe](https://github.com/davidsneighbour/hugo-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/davidsneighbour/hugo-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/davidsneighbour/hugo-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
 
 
 ### Chore
 
-* cleanup after broken release ([dcab615](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/dcab6158ca0f47926d2d38c0dde86320f037c694))
-* **deps:** update dependencies ([c76056c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
-* fix paths after renaming ([3cc9d05](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/3cc9d05f1151edfd57a260f1366039697d832b37))
-* **release:** v1.0.4 ([d7e8474](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
-* **release:** v1.0.5 ([4a6477c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
-* **release:** v1.0.7 ([002288c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/002288c74254359102c4af186d90c9100f577ed4))
-* **release:** v1.0.8 ([d33cf20](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/d33cf20a167aa2e7fbab4650635136ab1bccd9fb))
-* update go.mod ([95fbd1e](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/95fbd1e6ce53ee83c95ba68a33854200588fb4e2))
+* cleanup after broken release ([dcab615](https://github.com/davidsneighbour/hugo-youtube/commit/dcab6158ca0f47926d2d38c0dde86320f037c694))
+* **deps:** update dependencies ([c76056c](https://github.com/davidsneighbour/hugo-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
+* fix paths after renaming ([3cc9d05](https://github.com/davidsneighbour/hugo-youtube/commit/3cc9d05f1151edfd57a260f1366039697d832b37))
+* **release:** v1.0.4 ([d7e8474](https://github.com/davidsneighbour/hugo-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
+* **release:** v1.0.5 ([4a6477c](https://github.com/davidsneighbour/hugo-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
+* **release:** v1.0.7 ([002288c](https://github.com/davidsneighbour/hugo-youtube/commit/002288c74254359102c4af186d90c9100f577ed4))
+* **release:** v1.0.8 ([d33cf20](https://github.com/davidsneighbour/hugo-youtube/commit/d33cf20a167aa2e7fbab4650635136ab1bccd9fb))
+* update go.mod ([95fbd1e](https://github.com/davidsneighbour/hugo-youtube/commit/95fbd1e6ce53ee83c95ba68a33854200588fb4e2))
 
-### [1.0.8](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.8) (2022-04-06)
+### [1.0.8](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.2...v1.0.8) (2022-04-06)
 
 
 ### Features
 
-* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
+* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/davidsneighbour/hugo-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
 
 
 ### Build System
 
-* **fix:** push everything ([fb81cfe](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+* **fix:** push everything ([fb81cfe](https://github.com/davidsneighbour/hugo-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/davidsneighbour/hugo-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/davidsneighbour/hugo-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
 
 
 ### Chore
 
-* cleanup after broken release ([dcab615](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/dcab6158ca0f47926d2d38c0dde86320f037c694))
-* **deps:** update dependencies ([c76056c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
-* **release:** v1.0.4 ([d7e8474](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
-* **release:** v1.0.5 ([4a6477c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
-* **release:** v1.0.7 ([002288c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/002288c74254359102c4af186d90c9100f577ed4))
-* update go.mod ([95fbd1e](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/95fbd1e6ce53ee83c95ba68a33854200588fb4e2))
+* cleanup after broken release ([dcab615](https://github.com/davidsneighbour/hugo-youtube/commit/dcab6158ca0f47926d2d38c0dde86320f037c694))
+* **deps:** update dependencies ([c76056c](https://github.com/davidsneighbour/hugo-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
+* **release:** v1.0.4 ([d7e8474](https://github.com/davidsneighbour/hugo-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
+* **release:** v1.0.5 ([4a6477c](https://github.com/davidsneighbour/hugo-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
+* **release:** v1.0.7 ([002288c](https://github.com/davidsneighbour/hugo-youtube/commit/002288c74254359102c4af186d90c9100f577ed4))
+* update go.mod ([95fbd1e](https://github.com/davidsneighbour/hugo-youtube/commit/95fbd1e6ce53ee83c95ba68a33854200588fb4e2))
 
-### [1.0.7](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.7) (2022-02-22)
+### [1.0.7](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.2...v1.0.7) (2022-02-22)
 
 
 ### Features
 
-* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
+* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/davidsneighbour/hugo-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
 
 
 ### Build System
 
-* **fix:** push everything ([fb81cfe](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+* **fix:** push everything ([fb81cfe](https://github.com/davidsneighbour/hugo-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/davidsneighbour/hugo-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/davidsneighbour/hugo-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
 
 
 ### Chore
 
-* cleanup after broken release ([dcab615](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/dcab6158ca0f47926d2d38c0dde86320f037c694))
-* **deps:** update dependencies ([c76056c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
-* **release:** v1.0.4 ([d7e8474](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
-* **release:** v1.0.5 ([4a6477c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
+* cleanup after broken release ([dcab615](https://github.com/davidsneighbour/hugo-youtube/commit/dcab6158ca0f47926d2d38c0dde86320f037c694))
+* **deps:** update dependencies ([c76056c](https://github.com/davidsneighbour/hugo-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
+* **release:** v1.0.4 ([d7e8474](https://github.com/davidsneighbour/hugo-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
+* **release:** v1.0.5 ([4a6477c](https://github.com/davidsneighbour/hugo-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
 
-### [1.0.6](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.6) (2022-02-22)
+### [1.0.6](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.2...v1.0.6) (2022-02-22)
 
 
 ### Features
 
-* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
+* use getRemote to retrieve preview and cache it locally ([cde6bf2](https://github.com/davidsneighbour/hugo-youtube/commit/cde6bf2f055d68f771519a85496c889dc68d2424))
 
 
 ### Build System
 
-* **fix:** push everything ([fb81cfe](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+* **fix:** push everything ([fb81cfe](https://github.com/davidsneighbour/hugo-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/davidsneighbour/hugo-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/davidsneighbour/hugo-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
 
 
 ### Chore
 
-* **deps:** update dependencies ([c76056c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
-* **release:** v1.0.4 ([d7e8474](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
-* **release:** v1.0.5 ([4a6477c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
+* **deps:** update dependencies ([c76056c](https://github.com/davidsneighbour/hugo-youtube/commit/c76056c5b951636e93c2b8cecda1ccd6aed236ab))
+* **release:** v1.0.4 ([d7e8474](https://github.com/davidsneighbour/hugo-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
+* **release:** v1.0.5 ([4a6477c](https://github.com/davidsneighbour/hugo-youtube/commit/4a6477c9bbb4f5d3902dbe628949dfed9fdd672f))
 
-### [1.0.5](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.5) (2022-01-24)
+### [1.0.5](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.2...v1.0.5) (2022-01-24)
 
 
 ### Chore
 
-* **release:** v1.0.4 ([d7e8474](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
+* **release:** v1.0.4 ([d7e8474](https://github.com/davidsneighbour/hugo-youtube/commit/d7e8474dcb8d712a4151e79f6f8719c9f75481fd))
 
 
 ### Build System
 
-* **fix:** push everything ([fb81cfe](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+* **fix:** push everything ([fb81cfe](https://github.com/davidsneighbour/hugo-youtube/commit/fb81cfec988a0025763cd9ebac883398d4bf624e))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/davidsneighbour/hugo-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/davidsneighbour/hugo-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
 
-### [1.0.4](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.4) (2022-01-24)
-
-
-### Build System
-
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
-
-### [1.0.3](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.2...v1.0.3) (2022-01-24)
+### [1.0.4](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.2...v1.0.4) (2022-01-24)
 
 
 ### Build System
 
-* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([861ad4b](https://github.com/davidsneighbour/hugo-youtube/commit/861ad4bf134b753602dc4b3a89b31f9e080951f3))
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/davidsneighbour/hugo-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
 
-### [1.0.2](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.1...v1.0.2) (2022-01-24)
+### [1.0.3](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.2...v1.0.3) (2022-01-24)
+
+
+### Build System
+
+* **fix:** remove file extension from hook script reference and add pre-commit setup ([0fe683f](https://github.com/davidsneighbour/hugo-youtube/commit/0fe683f46f58066b23e067bf3f8e59e609fb313e))
+
+### [1.0.2](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.1...v1.0.2) (2022-01-24)
 
 
 ### Bug Fixes
 
-* remove pygment configuration ([6144d9c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/6144d9c19372788e41e62d78a528f5b61d9a2136))
+* remove pygment configuration ([6144d9c](https://github.com/davidsneighbour/hugo-youtube/commit/6144d9c19372788e41e62d78a528f5b61d9a2136))
 
 
 ### Documentation
 
-* add CITATION.cff ([0665d05](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/0665d05903910ab55e36de54974acae3cf6b6283))
-* update license ([2d1019b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/2d1019b0c278065e0af2762298f046d6490bcc2e))
+* add CITATION.cff ([0665d05](https://github.com/davidsneighbour/hugo-youtube/commit/0665d05903910ab55e36de54974acae3cf6b6283))
+* update license ([2d1019b](https://github.com/davidsneighbour/hugo-youtube/commit/2d1019b0c278065e0af2762298f046d6490bcc2e))
 
 
 ### Build System
 
-* move sc-youtube to youtube data config and add build.json ([52a504d](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/52a504d27041bb13b9300e2e2e476ed95d0cce92))
-* update build scripts ([ad51535](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/ad51535456bbf2b1af78ec291b6cb5c26c40cb6b))
+* move sc-youtube to youtube data config and add build.json ([52a504d](https://github.com/davidsneighbour/hugo-youtube/commit/52a504d27041bb13b9300e2e2e476ed95d0cce92))
+* update build scripts ([ad51535](https://github.com/davidsneighbour/hugo-youtube/commit/ad51535456bbf2b1af78ec291b6cb5c26c40cb6b))
 
 
 ### Chore
 
-* cleanup templates ([58dd588](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/58dd588ad5d297e637964f3240d51945aa111456))
-* **deps:** update dependencies ([cf4af1d](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/cf4af1d3e83d021024fe8d7a1616e8bf679324d3))
+* cleanup templates ([58dd588](https://github.com/davidsneighbour/hugo-youtube/commit/58dd588ad5d297e637964f3240d51945aa111456))
+* **deps:** update dependencies ([cf4af1d](https://github.com/davidsneighbour/hugo-youtube/commit/cf4af1d3e83d021024fe8d7a1616e8bf679324d3))
 
-### [1.0.1](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/compare/v1.0.0...v1.0.1) (2022-01-23)
+### [1.0.1](https://github.com/davidsneighbour/hugo-youtube/compare/v1.0.0...v1.0.1) (2022-01-23)
 
 
 ### Bug Fixes
 
-* load latest commit of lite-youtube-embed ([37e1e02](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/37e1e02af78f185a3c25b2598423ab692f80bffa))
-* remove release note ([998282b](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/998282b7f087f693e72f5e3a969ae0acda7c5926))
+* load latest commit of lite-youtube-embed ([37e1e02](https://github.com/davidsneighbour/hugo-youtube/commit/37e1e02af78f185a3c25b2598423ab692f80bffa))
+* remove release note ([998282b](https://github.com/davidsneighbour/hugo-youtube/commit/998282b7f087f693e72f5e3a969ae0acda7c5926))
 
 
 ### Documentation
 
-* update README.md ([7c57c16](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/7c57c168e32c641b93c5f6a14d8ff918cb9c9596))
+* update README.md ([7c57c16](https://github.com/davidsneighbour/hugo-youtube/commit/7c57c168e32c641b93c5f6a14d8ff918cb9c9596))
 
 
 ### Chore
 
-* **config:** update header images ([30d2d2c](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/30d2d2cd6cb7c1a9bbda3f499147e484312542cc))
-* **deps:** add mem dependency for dependabot ([ef975bb](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/ef975bb21cebb8086d3a5e70046cca47aa4e732e))
+* **config:** update header images ([30d2d2c](https://github.com/davidsneighbour/hugo-youtube/commit/30d2d2cd6cb7c1a9bbda3f499147e484312542cc))
+* **deps:** add mem dependency for dependabot ([ef975bb](https://github.com/davidsneighbour/hugo-youtube/commit/ef975bb21cebb8086d3a5e70046cca47aa4e732e))
 
 ## 1.0.0 (2021-12-25)
 
 
 ### Chore
 
-* initial commit, first version ([9a7c8ce](https://github.com/dnb-org/dnb-hugo-shortcode-youtube/commit/9a7c8ce2a062f2961d6d49e1efc5048d2facb71e))
+* initial commit, first version ([9a7c8ce](https://github.com/davidsneighbour/hugo-youtube/commit/9a7c8ce2a062f2961d6d49e1efc5048d2facb71e))
 
 ### [1.0.23](https://github.com/dnb-org/shortcodes/compare/youtube/v1.0.22...youtube/v1.0.23) (2021-12-25)
 
