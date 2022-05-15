@@ -1,7 +1,8 @@
 ---
-title: "DNB-Hugo Youtube Shortcode"
+title: Youtube Shortcode
 date: 2021-04-16T19:56:45+07:00
 layout: sc-documentation
+lastmod: 2022-05-15T16:05:03+07:00
 ---
 
 Following are some samples for the usage of the Youtube Shortcode.
@@ -11,7 +12,7 @@ Following are some samples for the usage of the Youtube Shortcode.
 ## Default call {.mt-5}
 
 {{< highlight go-html-template >}}
-{{</* youtube
+{{</*youtube
         id="_BM3zCMRPcw"
 */>}}
 {{< / highlight >}}
@@ -23,7 +24,7 @@ Following are some samples for the usage of the Youtube Shortcode.
 Please don't do that ;] But you can if you want. Use the `youtube` shortcode just in combination with the video-ID. You don't even need quotation marks around the ID.
 
 {{< highlight go-html-template >}}
-{{</* youtube
+{{</*youtube
         _BM3zCMRPcw
 */>}}
 {{< / highlight >}}
@@ -33,7 +34,7 @@ Please don't do that ;] But you can if you want. Use the `youtube` shortcode jus
 ## Add an aria-label to the play button {.mt-5}
 
 {{< highlight go-html-template >}}
-{{</* youtube
+{{</*youtube
         id="_BM3zCMRPcw"
         title="Lower your eyelids to die with the sun - M83"
 */>}}
