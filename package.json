@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/hugo-youtube",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": "MIT",
   "description": "Youtube shortcode and partial for GoHugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
