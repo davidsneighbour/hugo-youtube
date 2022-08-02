@@ -24,7 +24,7 @@ see
     {{- $class  := .class | default "" -}}
     {{- $title  := .title | default "" -}}
     {{- $params := .params | default $paramsCollected -}}
-    {{- $remoteThumbnailUrl := printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id -}}
+    {{- $remoteThumbnailUrl := printf "https://ytimg.googleusercontent.com/vi/%s/maxresdefault.jpg" $id -}}
     {{- $remoteThumbnail := resources.GetRemote $remoteThumbnailUrl -}}
     <div class="shortcode--youtube {{ with $class -}}{{- . -}}{{- end -}}">
         <lite-youtube
