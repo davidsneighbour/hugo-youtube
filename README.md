@@ -43,7 +43,6 @@ path = "github.com/davidsneighbour/hugo-youtube"
 disable = false
 ignoreConfig = false
 ignoreImports = false
-
 ```
 
 The next time you run `hugo` it will download the latest version of the module.
@@ -103,13 +102,13 @@ If you are not using any Hugo pipelines (shame on you) then add the Javascript a
 <script src="/libs/liteyoutube/lite-yt-embed.js"></script>
 ```
 
-## CSP rules for this plugin
+## Content Security Policy (CSP) rules for this plugin
 
-The following rules are required in addition to your normal setup to allow videos to load:
+Using a CSP on your website you will need to whitelist YouTube frame-src for the video and img-src for the preview thumbnail, if you have no local preview thumbnail available. The following rules are required in addition to your normal setup to allow videos to load:
 
 ```ini
 frame-src = ["https://www.youtube-nocookie.com"]
-img-src = ["https://i.ytimg.com"]
+img-src = ["https://i.ytimg.com", "https://ytimg.googleusercontent.com"]
 ```
 
 <!--- COMPONENTS BEGIN --->

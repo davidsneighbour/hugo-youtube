@@ -25,13 +25,15 @@ see
     {{- $class  := .Get "class" | default (.Get 1) -}}
     {{- $title  := .Get "title" | default (.Get 2) -}}
     {{- $params := .Get "params" | default $paramsCollected -}}
+    {{- $thumbnailUrl := partialCached "getYoutubePreviewUrl.html" . -}}
+    {{- $remoteThumbnailUrl := printf $thumbnailUrl $id -}}
 
     <div class="shortcode--youtube {{ with $class -}}{{- . -}}{{- end -}}">
         <lite-youtube
             videoid="{{- $id -}}" {{ with $title -}}
             playlabel="{{- . -}}"{{- end -}}
             params="{{- $params -}}"
-            style="background-image: url('https://i.ytimg.com/vi/{{- $id -}}/hqdefault.jpg');">
+            style="background-image: url('{{- $remoteThumbnailUrl -}}');">
             <button type="button" class="lty-playbtn" aria-label="Play video">
                 {{- with $title -}}<span class="lyt-visually-hidden">{{- . -}}</span>{{- end -}}
             </button>
