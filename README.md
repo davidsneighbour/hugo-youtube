@@ -43,6 +43,7 @@ path = "github.com/davidsneighbour/hugo-youtube"
 disable = false
 ignoreConfig = false
 ignoreImports = false
+
 ```
 
 The next time you run `hugo` it will download the latest version of the module.
