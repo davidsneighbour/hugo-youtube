@@ -9,35 +9,35 @@ Following are some samples for the usage of the Youtube Shortcode.
 
 **Note:** You can do [multiline GoHugo-tags since v0.81.0](https://gohugo.io/news/0.81.0-relnotes/#newlines-in-template-actions-and-commands). With older Hugo versions you need to remove the newlines in the following template examples. On the other side, there shouldn't be any reason to use an old Hugo version ;]
 
-## Default call {.mt-5}
+## Default call
 
-{{< highlight go-html-template >}}
-{{</*youtube
-        id="dQw4w9WgXcQ"
+```go-html-template
+{{</* youtube
+        id="3G4kCi_ldr8"
 */>}}
-{{< / highlight >}}
+```
 
-{{< youtube id="dQw4w9WgXcQ" >}}
+{{< youtube id="3G4kCi_ldr8" >}}
 
-## Quick shortcode {.mt-5}
+## Quick shortcode
 
 Please don't do that ;] But you can if you want. Use the `youtube` shortcode just in combination with the video-ID. You don't even need quotation marks around the ID.
 
-{{< highlight go-html-template >}}
-{{</*youtube
-        dQw4w9WgXcQ
+```go-html-template
+{{</* youtube
+        3G4kCi_ldr8
 */>}}
-{{< / highlight >}}
+```
 
-{{< youtube dQw4w9WgXcQ >}}
+{{< youtube 3G4kCi_ldr8 >}}
 
-## Add an aria-label to the play button {.mt-5}
+## Add an aria-label to the play button
 
-{{< highlight go-html-template >}}
-{{</*youtube
-        id="dQw4w9WgXcQ"
-        title="Lower your eyelids to die with the sun - M83"
+```go-html-template
+{{</* youtube
+        id="3G4kCi_ldr8"
+        title="Jon Hopkins with Ram Dass, East Forest - Sit Around The Fire"
 */>}}
-{{< / highlight >}}
+```
 
-{{< youtube id="dQw4w9WgXcQ" title="Lower your eyelids to die with the sun - M83" >}}
+{{< youtube id="3G4kCi_ldr8" title="Jon Hopkins with Ram Dass, East Forest - Sit Around The Fire" >}}
