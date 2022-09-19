@@ -13,11 +13,11 @@ Following are some samples for the usage of the Youtube Shortcode.
 
 {{< highlight go-html-template >}}
 {{</*youtube
-        id="_BM3zCMRPcw"
+        id="dQw4w9WgXcQ"
 */>}}
 {{< / highlight >}}
 
-{{< youtube id="_BM3zCMRPcw" >}}
+{{< youtube id="dQw4w9WgXcQ" >}}
 
 ## Quick shortcode {.mt-5}
 
@@ -25,19 +25,19 @@ Please don't do that ;] But you can if you want. Use the `youtube` shortcode jus
 
 {{< highlight go-html-template >}}
 {{</*youtube
-        _BM3zCMRPcw
+        dQw4w9WgXcQ
 */>}}
 {{< / highlight >}}
 
-{{< youtube _BM3zCMRPcw >}}
+{{< youtube dQw4w9WgXcQ >}}
 
 ## Add an aria-label to the play button {.mt-5}
 
 {{< highlight go-html-template >}}
 {{</*youtube
-        id="_BM3zCMRPcw"
+        id="dQw4w9WgXcQ"
         title="Lower your eyelids to die with the sun - M83"
 */>}}
 {{< / highlight >}}
 
-{{< youtube id="_BM3zCMRPcw" title="Lower your eyelids to die with the sun - M83" >}}
+{{< youtube id="dQw4w9WgXcQ" title="Lower your eyelids to die with the sun - M83" >}}
