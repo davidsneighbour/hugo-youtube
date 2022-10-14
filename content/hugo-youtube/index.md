@@ -7,7 +7,7 @@ lastmod: 2022-05-15T16:05:03+07:00
 
 Following are some samples for the usage of the Youtube Shortcode.
 
-**Note:** You can do [multiline GoHugo-tags since v0.81.0](https://gohugo.io/news/0.81.0-relnotes/#newlines-in-template-actions-and-commands). With older Hugo versions you need to remove the newlines in the following template examples. On the other side, there shouldn't be any reason to use an old Hugo version ;]
+**Note:** You can do [multiline GoHugo-tags since v0.81.0](https://github.com/gohugoio/hugo/releases/tag/v0.81.0). With older Hugo versions you need to remove the newlines in the following template examples. On the other side, there shouldn't be any reason to use an old Hugo version ;]
 
 ## Default call
 
