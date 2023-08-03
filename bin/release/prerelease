@@ -1,9 +1,0 @@
-#!/bin/bash
-
-bin/build/prepare-files
-git add README.md
-
-go get github.com/paulirish/lite-youtube-embed@master
-git add go.mod
-hugo mod tidy
-git add go.sum
